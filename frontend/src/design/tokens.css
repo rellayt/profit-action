@@ -1,0 +1,53 @@
+:root {
+  --pa-green-bright: 33 241 139;
+  --pa-green-primary: 20 217 119;
+  --pa-green-deep: 14 168 92;
+  --pa-green-muted: 20 217 119;
+
+  --pa-bg-app: 6 12 18;
+  --pa-bg-surface: 10 20 28;
+  --pa-bg-elevated: 14 28 38;
+  --pa-bg-card: 12 24 34;
+
+  --pa-text-primary: 236 253 245;
+  --pa-text-secondary: 148 163 184;
+  --pa-text-muted: 100 116 139;
+
+  --pa-border-subtle: 20 217 119;
+  --pa-border-neutral: 51 65 85;
+
+  --pa-stop: 248 113 113;
+  --pa-rescue: 251 191 36;
+  --pa-scale: 33 241 139;
+  --pa-neutral: 148 163 184;
+
+  --foreground: var(--pa-text-primary);
+  --card-bg: rgb(var(--pa-bg-card) / 0.92);
+  --muted-foreground: var(--pa-text-muted);
+  --primary: var(--pa-green-primary);
+  --success: var(--pa-scale);
+  --error: var(--pa-stop);
+  --warning: var(--pa-rescue);
+  --info: 56 189 248;
+  --accent: var(--pa-green-bright);
+
+  --pa-radius-sm: 0.5rem;
+  --pa-radius-md: 0.75rem;
+  --pa-radius-lg: 1rem;
+  --pa-shadow-card: 0 12px 32px rgb(0 0 0 / 28%), inset 0 1px 0 rgb(255 255 255 / 4%);
+  --pa-shadow-glow:
+    0 0 0 1px rgb(var(--pa-green-primary) / 0.18), 0 8px 24px rgb(var(--pa-green-primary) / 0.12);
+}
+
+[data-theme='light'] {
+  --pa-bg-app: 248 250 252;
+  --pa-bg-surface: 255 255 255;
+  --pa-bg-elevated: 241 245 249;
+  --pa-bg-card: 255 255 255;
+  --pa-text-primary: 15 23 42;
+  --pa-text-secondary: 71 85 105;
+  --pa-text-muted: 100 116 139;
+  --pa-shadow-card: 0 8px 24px rgb(15 23 42 / 8%), inset 0 1px 0 rgb(255 255 255 / 80%);
+  --pa-shadow-glow:
+    0 0 0 1px rgb(var(--pa-green-primary) / 0.22), 0 8px 20px rgb(var(--pa-green-primary) / 0.14);
+}

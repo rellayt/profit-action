@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Inter, system-ui, sans-serif;
+  background:
+    radial-gradient(circle at top left, rgb(var(--pa-green-primary) / 0.08), transparent 28%),
+    radial-gradient(circle at top right, rgb(var(--pa-green-bright) / 0.05), transparent 24%),
+    rgb(var(--pa-bg-app));
+  color: rgb(var(--pa-text-primary));
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.copilot-chat-panel {
+  transition: height 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.copilot-chat-panel.is-sizing {
+  transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .copilot-chat-panel {
+    transition: none;
+  }
+}
+
+.copilot-insights-modal-body {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(var(--pa-border-neutral) / 0.65) transparent;
+}
+
+.copilot-insights-modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.copilot-insights-modal-body::-webkit-scrollbar-thumb {
+  background: rgb(var(--pa-border-neutral) / 0.55);
+  border-radius: 999px;
+}
+
+.copilot-insights-modal-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.copilot-md :first-child {
+  margin-top: 0;
+}
+
+.copilot-md :last-child {
+  margin-bottom: 0;
+}
+
+.copilot-md-list {
+  margin: 0 0 8px;
+  padding-left: 1.2rem;
+}
+
+.copilot-md-li {
+  margin: 2px 0;
+}
+
+.copilot-md-code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.92em;
+  padding: 0.05em 0.35em;
+  border-radius: 4px;
+  background: rgb(var(--pa-bg-elevated) / 0.9);
+}
+
+.copilot-md.is-muted {
+  opacity: 0.85;
+}
+
+.copilot-fade-in {
+  animation: copilotFadeIn 520ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.copilot-history-section {
+  animation: copilotHistoryIn 480ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes copilotHistoryIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes copilotFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.copilot-soft-reveal {
+  animation: copilotSoftReveal 640ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.copilot-user-enter {
+  animation: copilotSoftReveal 480ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.copilot-typing-indicator {
+  animation: copilotSoftReveal 420ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  padding-block: 10px;
+  padding-inline: 6px;
+}
+
+@keyframes copilotSoftReveal {
+  from {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.copilot-stream-cursor {
+  animation: copilotCursorPulse 1.4s ease-in-out infinite;
+}
+
+@keyframes copilotCursorPulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.copilot-typing-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgb(var(--pa-green-primary) / 0.7);
+  animation: copilotPulse 1.8s ease-in-out infinite;
+}
+
+@keyframes copilotPulse {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1);
+  }
+}
+
+.copilot-scatter-tooltip {
+  opacity: 0;
+  transform: translateY(4px);
+  transition:
+    opacity 200ms ease,
+    transform 200ms ease;
+}
+
+.copilot-scatter-tooltip.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.copilot-composer-voice-shell {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 220ms ease;
+  pointer-events: none;
+}
+
+.copilot-composer-voice-shell.is-visible {
+  opacity: 1;
+}
+
+.copilot-voice-surface {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 88px;
+  box-sizing: border-box;
+}
+
+.copilot-voice-bars {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.copilot-voice-bar {
+  flex: 0 0 2px;
+  width: 2px;
+  border-radius: 999px;
+  background: rgb(var(--pa-text-secondary) / 0.55);
+  align-self: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .copilot-fade-in,
+  .copilot-history-section,
+  .copilot-soft-reveal,
+  .copilot-user-enter,
+  .copilot-typing-indicator,
+  .copilot-stream-cursor,
+  .copilot-typing-dot,
+  .copilot-composer-voice-shell,
+  .copilot-chat-panel,
+  .copilot-scatter-tooltip,
+  .copilot-scatter-crosshair {
+    animation: none;
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .copilot-composer-voice-shell:not(.is-visible),
+  .copilot-scatter-tooltip:not(.is-visible) {
+    opacity: 0;
+  }
+}

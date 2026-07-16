@@ -1,0 +1,1311 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Profit Action API",
+    "description": "Conversational product analytics · synthetic catalog · read-only",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "health"
+        ],
+        "summary": "Health",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/products": {
+      "get": {
+        "tags": [
+          "products"
+        ],
+        "summary": "Get Products",
+        "operationId": "get_products_api_products_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductsResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/conversations": {
+      "get": {
+        "tags": [
+          "conversations"
+        ],
+        "summary": "Get Conversation List",
+        "operationId": "get_conversation_list_api_conversations_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/ConversationSummary"
+                  },
+                  "type": "array",
+                  "title": "Response Get Conversation List Api Conversations Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/conversations/{conversation_id}": {
+      "get": {
+        "tags": [
+          "conversations"
+        ],
+        "summary": "Get Conversation Detail",
+        "operationId": "get_conversation_detail_api_conversations__conversation_id__get",
+        "parameters": [
+          {
+            "name": "conversation_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Conversation Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConversationDetail"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "conversations"
+        ],
+        "summary": "Put Conversation",
+        "operationId": "put_conversation_api_conversations__conversation_id__put",
+        "parameters": [
+          {
+            "name": "conversation_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Conversation Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConversationDetail"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConversationDetail"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "conversations"
+        ],
+        "summary": "Remove Conversation",
+        "operationId": "remove_conversation_api_conversations__conversation_id__delete",
+        "parameters": [
+          {
+            "name": "conversation_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Conversation Id"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/chat": {
+      "post": {
+        "tags": [
+          "chat"
+        ],
+        "summary": "Post Chat",
+        "operationId": "post_chat_api_chat_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChatRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AggregationRow": {
+        "properties": {
+          "fn": {
+            "type": "string",
+            "enum": [
+              "count",
+              "sum",
+              "avg",
+              "min",
+              "max"
+            ],
+            "title": "Fn"
+          },
+          "field": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Field"
+          },
+          "value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "integer"
+              }
+            ],
+            "title": "Value"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          }
+        },
+        "type": "object",
+        "required": [
+          "fn",
+          "value",
+          "label"
+        ],
+        "title": "AggregationRow"
+      },
+      "AnalysisKpi": {
+        "properties": {
+          "key": {
+            "type": "string",
+            "title": "Key"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              }
+            ],
+            "title": "Value"
+          },
+          "format": {
+            "type": "string",
+            "enum": [
+              "currency",
+              "number",
+              "text"
+            ],
+            "title": "Format",
+            "default": "number"
+          }
+        },
+        "type": "object",
+        "required": [
+          "key",
+          "label",
+          "value"
+        ],
+        "title": "AnalysisKpi"
+      },
+      "AnalysisPlan": {
+        "properties": {
+          "operation": {
+            "type": "string",
+            "enum": [
+              "list",
+              "aggregate",
+              "group"
+            ],
+            "title": "Operation",
+            "default": "list"
+          },
+          "scopeAnalysisId": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Scopeanalysisid"
+          },
+          "filterLogic": {
+            "type": "string",
+            "enum": [
+              "and",
+              "or"
+            ],
+            "title": "Filterlogic",
+            "default": "and"
+          },
+          "filters": {
+            "items": {
+              "$ref": "#/components/schemas/PlanFilter"
+            },
+            "type": "array",
+            "title": "Filters"
+          },
+          "sort": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/PlanSort"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "limit": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Limit",
+            "default": 25
+          },
+          "aggregations": {
+            "items": {
+              "$ref": "#/components/schemas/PlanAggregation"
+            },
+            "type": "array",
+            "title": "Aggregations"
+          },
+          "groupBy": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "category",
+                  "brand",
+                  "segment"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Groupby"
+          },
+          "criteriaSummary": {
+            "type": "string",
+            "title": "Criteriasummary",
+            "default": ""
+          },
+          "interpretationNote": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Interpretationnote"
+          }
+        },
+        "type": "object",
+        "title": "AnalysisPlan"
+      },
+      "AnalysisResult": {
+        "properties": {
+          "analysisId": {
+            "type": "string",
+            "title": "Analysisid"
+          },
+          "operation": {
+            "type": "string",
+            "enum": [
+              "list",
+              "aggregate",
+              "group"
+            ],
+            "title": "Operation",
+            "default": "list"
+          },
+          "periodDays": {
+            "type": "integer",
+            "title": "Perioddays",
+            "default": 30
+          },
+          "answerText": {
+            "type": "string",
+            "title": "Answertext",
+            "default": ""
+          },
+          "criteriaSummary": {
+            "type": "string",
+            "title": "Criteriasummary",
+            "default": ""
+          },
+          "interpretationNote": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Interpretationnote"
+          },
+          "showChart": {
+            "type": "boolean",
+            "title": "Showchart",
+            "default": false
+          },
+          "showCta": {
+            "type": "boolean",
+            "title": "Showcta",
+            "default": false
+          },
+          "plan": {
+            "$ref": "#/components/schemas/AnalysisPlan"
+          },
+          "summary": {
+            "$ref": "#/components/schemas/AnalysisSummaryCounts"
+          },
+          "kpis": {
+            "items": {
+              "$ref": "#/components/schemas/AnalysisKpi"
+            },
+            "type": "array",
+            "title": "Kpis"
+          },
+          "topProducts": {
+            "items": {
+              "$ref": "#/components/schemas/AnalysisTopProduct"
+            },
+            "type": "array",
+            "title": "Topproducts"
+          },
+          "matchedProductIds": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Matchedproductids"
+          },
+          "matchedProducts": {
+            "items": {
+              "$ref": "#/components/schemas/MatchedProductRow"
+            },
+            "type": "array",
+            "title": "Matchedproducts"
+          },
+          "groupRows": {
+            "items": {
+              "$ref": "#/components/schemas/GroupRow"
+            },
+            "type": "array",
+            "title": "Grouprows"
+          },
+          "aggregations": {
+            "items": {
+              "$ref": "#/components/schemas/AggregationRow"
+            },
+            "type": "array",
+            "title": "Aggregations"
+          },
+          "chartPoints": {
+            "items": {
+              "$ref": "#/components/schemas/ChartPoint"
+            },
+            "type": "array",
+            "title": "Chartpoints"
+          },
+          "chartCaption": {
+            "type": "string",
+            "title": "Chartcaption",
+            "default": ""
+          }
+        },
+        "type": "object",
+        "required": [
+          "analysisId",
+          "summary"
+        ],
+        "title": "AnalysisResult",
+        "description": "Wire DTO for streamed analysis snapshots."
+      },
+      "AnalysisSummaryCounts": {
+        "properties": {
+          "productsAnalyzed": {
+            "type": "integer",
+            "title": "Productsanalyzed"
+          },
+          "matchedProducts": {
+            "type": "integer",
+            "title": "Matchedproducts"
+          }
+        },
+        "type": "object",
+        "required": [
+          "productsAnalyzed",
+          "matchedProducts"
+        ],
+        "title": "AnalysisSummaryCounts"
+      },
+      "AnalysisTopProduct": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "spend": {
+            "type": "number",
+            "title": "Spend"
+          },
+          "revenue": {
+            "type": "number",
+            "title": "Revenue"
+          },
+          "profit": {
+            "type": "number",
+            "title": "Profit"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "spend",
+          "revenue",
+          "profit"
+        ],
+        "title": "AnalysisTopProduct"
+      },
+      "ChartPoint": {
+        "properties": {
+          "productId": {
+            "type": "string",
+            "title": "Productid"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "spend": {
+            "type": "number",
+            "title": "Spend"
+          },
+          "revenue": {
+            "type": "number",
+            "title": "Revenue"
+          },
+          "profit": {
+            "type": "number",
+            "title": "Profit"
+          },
+          "stock": {
+            "type": "integer",
+            "title": "Stock"
+          },
+          "segment": {
+            "type": "string",
+            "enum": [
+              "stop_spending",
+              "rescue",
+              "scale",
+              "neutral"
+            ],
+            "title": "Segment"
+          },
+          "recommendation": {
+            "type": "string",
+            "title": "Recommendation"
+          }
+        },
+        "type": "object",
+        "required": [
+          "productId",
+          "name",
+          "spend",
+          "revenue",
+          "profit",
+          "stock",
+          "segment",
+          "recommendation"
+        ],
+        "title": "ChartPoint"
+      },
+      "ChatMessage": {
+        "properties": {
+          "role": {
+            "type": "string",
+            "enum": [
+              "user",
+              "assistant",
+              "system"
+            ],
+            "title": "Role"
+          },
+          "content": {
+            "type": "string",
+            "title": "Content",
+            "default": ""
+          }
+        },
+        "type": "object",
+        "required": [
+          "role"
+        ],
+        "title": "ChatMessage"
+      },
+      "ChatRequest": {
+        "properties": {
+          "messages": {
+            "items": {
+              "$ref": "#/components/schemas/ChatMessage"
+            },
+            "type": "array",
+            "title": "Messages"
+          }
+        },
+        "type": "object",
+        "title": "ChatRequest"
+      },
+      "ClassifiedProduct": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "sku": {
+            "type": "string",
+            "title": "Sku"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "brand": {
+            "type": "string",
+            "title": "Brand"
+          },
+          "category": {
+            "type": "string",
+            "title": "Category"
+          },
+          "googleAdsSpend": {
+            "type": "number",
+            "title": "Googleadsspend"
+          },
+          "netRevenue": {
+            "type": "number",
+            "title": "Netrevenue"
+          },
+          "marginPercent": {
+            "type": "number",
+            "title": "Marginpercent"
+          },
+          "addToCartRate": {
+            "type": "number",
+            "title": "Addtocartrate"
+          },
+          "conversionRate": {
+            "type": "number",
+            "title": "Conversionrate"
+          },
+          "impressions": {
+            "type": "integer",
+            "title": "Impressions"
+          },
+          "stock": {
+            "type": "integer",
+            "title": "Stock"
+          },
+          "profit": {
+            "type": "number",
+            "title": "Profit"
+          },
+          "freshness": {
+            "items": {
+              "$ref": "#/components/schemas/DataFreshness"
+            },
+            "type": "array",
+            "title": "Freshness"
+          },
+          "segment": {
+            "type": "string",
+            "enum": [
+              "stop_spending",
+              "rescue",
+              "scale",
+              "neutral"
+            ],
+            "title": "Segment"
+          },
+          "recommendation": {
+            "type": "string",
+            "title": "Recommendation"
+          },
+          "evidence": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Evidence"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "sku",
+          "name",
+          "brand",
+          "category",
+          "googleAdsSpend",
+          "netRevenue",
+          "marginPercent",
+          "addToCartRate",
+          "conversionRate",
+          "impressions",
+          "stock",
+          "profit",
+          "freshness",
+          "segment",
+          "recommendation",
+          "evidence"
+        ],
+        "title": "ClassifiedProduct"
+      },
+      "ConversationDetail": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "createdAt": {
+            "type": "integer",
+            "title": "Createdat"
+          },
+          "updatedAt": {
+            "type": "integer",
+            "title": "Updatedat"
+          },
+          "messages": {
+            "items": {
+              "$ref": "#/components/schemas/ConversationMessage"
+            },
+            "type": "array",
+            "title": "Messages"
+          },
+          "analysesById": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/AnalysisResult"
+            },
+            "type": "object",
+            "title": "Analysesbyid"
+          },
+          "messageAnalysisIds": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object",
+            "title": "Messageanalysisids"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "createdAt",
+          "updatedAt"
+        ],
+        "title": "ConversationDetail"
+      },
+      "ConversationMessage": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "user",
+              "assistant",
+              "system"
+            ],
+            "title": "Role"
+          },
+          "content": {
+            "type": "string",
+            "title": "Content"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "role",
+          "content"
+        ],
+        "title": "ConversationMessage"
+      },
+      "ConversationSummary": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "createdAt": {
+            "type": "integer",
+            "title": "Createdat"
+          },
+          "updatedAt": {
+            "type": "integer",
+            "title": "Updatedat"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "createdAt",
+          "updatedAt"
+        ],
+        "title": "ConversationSummary"
+      },
+      "DataFreshness": {
+        "properties": {
+          "source": {
+            "type": "string",
+            "enum": [
+              "ga4",
+              "google_ads",
+              "inventory",
+              "shop"
+            ],
+            "title": "Source"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "updatedAt": {
+            "type": "string",
+            "title": "Updatedat"
+          }
+        },
+        "type": "object",
+        "required": [
+          "source",
+          "label",
+          "updatedAt"
+        ],
+        "title": "DataFreshness"
+      },
+      "GroupRow": {
+        "properties": {
+          "key": {
+            "type": "string",
+            "title": "Key"
+          },
+          "count": {
+            "type": "integer",
+            "title": "Count"
+          },
+          "spend": {
+            "type": "number",
+            "title": "Spend"
+          },
+          "revenue": {
+            "type": "number",
+            "title": "Revenue"
+          },
+          "profit": {
+            "type": "number",
+            "title": "Profit"
+          },
+          "avgMargin": {
+            "type": "number",
+            "title": "Avgmargin"
+          }
+        },
+        "type": "object",
+        "required": [
+          "key",
+          "count",
+          "spend",
+          "revenue",
+          "profit",
+          "avgMargin"
+        ],
+        "title": "GroupRow"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "HealthResponse": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "service": {
+            "type": "string",
+            "title": "Service"
+          },
+          "demoMode": {
+            "type": "boolean",
+            "title": "Demomode"
+          },
+          "openaiConfigured": {
+            "type": "boolean",
+            "title": "Openaiconfigured"
+          },
+          "liveAiAvailable": {
+            "type": "boolean",
+            "title": "Liveaiavailable"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "service",
+          "demoMode",
+          "openaiConfigured",
+          "liveAiAvailable"
+        ],
+        "title": "HealthResponse"
+      },
+      "MatchedProductRow": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "spend": {
+            "type": "number",
+            "title": "Spend"
+          },
+          "revenue": {
+            "type": "number",
+            "title": "Revenue"
+          },
+          "profit": {
+            "type": "number",
+            "title": "Profit"
+          },
+          "stock": {
+            "type": "integer",
+            "title": "Stock"
+          },
+          "margin": {
+            "type": "number",
+            "title": "Margin"
+          },
+          "segment": {
+            "type": "string",
+            "enum": [
+              "stop_spending",
+              "rescue",
+              "scale",
+              "neutral"
+            ],
+            "title": "Segment"
+          },
+          "matchReason": {
+            "type": "string",
+            "title": "Matchreason"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "spend",
+          "revenue",
+          "profit",
+          "stock",
+          "margin",
+          "segment",
+          "matchReason"
+        ],
+        "title": "MatchedProductRow"
+      },
+      "PlanAggregation": {
+        "properties": {
+          "fn": {
+            "type": "string",
+            "enum": [
+              "count",
+              "sum",
+              "avg",
+              "min",
+              "max"
+            ],
+            "title": "Fn"
+          },
+          "field": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "spend",
+                  "revenue",
+                  "profit",
+                  "margin",
+                  "stock"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Field"
+          }
+        },
+        "type": "object",
+        "required": [
+          "fn"
+        ],
+        "title": "PlanAggregation"
+      },
+      "PlanFilter": {
+        "properties": {
+          "field": {
+            "type": "string",
+            "enum": [
+              "spend",
+              "revenue",
+              "profit",
+              "margin",
+              "stock",
+              "name",
+              "brand",
+              "category",
+              "sku",
+              "segment"
+            ],
+            "title": "Field"
+          },
+          "operator": {
+            "type": "string",
+            "enum": [
+              "lt",
+              "lte",
+              "gt",
+              "gte",
+              "eq",
+              "contains"
+            ],
+            "title": "Operator"
+          },
+          "value": {
+            "title": "Value"
+          }
+        },
+        "type": "object",
+        "required": [
+          "field",
+          "operator",
+          "value"
+        ],
+        "title": "PlanFilter"
+      },
+      "PlanSort": {
+        "properties": {
+          "field": {
+            "type": "string",
+            "enum": [
+              "spend",
+              "revenue",
+              "profit",
+              "margin",
+              "stock"
+            ],
+            "title": "Field"
+          },
+          "direction": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "title": "Direction",
+            "default": "desc"
+          }
+        },
+        "type": "object",
+        "required": [
+          "field"
+        ],
+        "title": "PlanSort"
+      },
+      "ProductsResponse": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/ClassifiedProduct"
+            },
+            "type": "array",
+            "title": "Items"
+          },
+          "total": {
+            "type": "integer",
+            "title": "Total"
+          },
+          "segmentCounts": {
+            "additionalProperties": {
+              "type": "integer"
+            },
+            "type": "object",
+            "title": "Segmentcounts"
+          }
+        },
+        "type": "object",
+        "required": [
+          "items",
+          "total",
+          "segmentCounts"
+        ],
+        "title": "ProductsResponse"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      },
+      "StatusDataPart": {
+        "properties": {
+          "type": {
+            "const": "status",
+            "default": "status",
+            "title": "Type",
+            "type": "string"
+          },
+          "message": {
+            "title": "Message",
+            "type": "string"
+          }
+        },
+        "required": [
+          "message"
+        ],
+        "title": "StatusDataPart",
+        "type": "object"
+      },
+      "AnalysisDataPart": {
+        "properties": {
+          "type": {
+            "const": "analysis",
+            "default": "analysis",
+            "title": "Type",
+            "type": "string"
+          },
+          "analysis": {
+            "$ref": "#/components/schemas/AnalysisResult"
+          }
+        },
+        "required": [
+          "analysis"
+        ],
+        "title": "AnalysisDataPart",
+        "type": "object"
+      },
+      "UnsupportedDataPart": {
+        "properties": {
+          "type": {
+            "const": "unsupported",
+            "default": "unsupported",
+            "title": "Type",
+            "type": "string"
+          }
+        },
+        "title": "UnsupportedDataPart",
+        "type": "object"
+      }
+    }
+  }
+}

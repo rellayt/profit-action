@@ -1,0 +1,9 @@
+# Secrets - never expose to the agent
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+**/.env
+**/.env.*
+!**/.env.example

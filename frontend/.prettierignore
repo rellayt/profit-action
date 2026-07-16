@@ -1,0 +1,8 @@
+dist
+storybook-static
+e2e
+playwright-report
+test-results
+node_modules
+coverage
+*.min.js

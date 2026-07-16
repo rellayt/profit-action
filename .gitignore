@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.venv/
+backend/.venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+
+# Build outputs
+dist/
+frontend/dist/
+storybook-static/
+*.tsbuildinfo
+frontend/*.tsbuildinfo
+
+# Test / coverage artifacts
+test-results/
+frontend/test-results/
+playwright-report/
+frontend/playwright-report/
+coverage/
+frontend/coverage/
+.pytest_cache/
+backend/.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.cursor/
+*.egg-info/
+backend/*.egg-info/

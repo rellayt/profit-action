@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "p-001",
+    "sku": "SKU-8841",
+    "name": "Słuchawki bezprzewodowe Pro X",
+    "brand": "AudioLine",
+    "category": "Elektronika",
+    "googleAdsSpend": 462,
+    "netRevenue": 0,
+    "marginPercent": 41,
+    "addToCartRate": 8.4,
+    "conversionRate": 0.4,
+    "impressions": 12400,
+    "stock": 84,
+    "profit": -462,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-002",
+    "sku": "SKU-3310",
+    "name": "Kabel USB-C 2m",
+    "brand": "WireBase",
+    "category": "Akcesoria",
+    "googleAdsSpend": 890,
+    "netRevenue": 0,
+    "marginPercent": 12,
+    "addToCartRate": 1.2,
+    "conversionRate": 0.1,
+    "impressions": 18200,
+    "stock": 540,
+    "profit": -890,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T15:48:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-003",
+    "sku": "SKU-7720",
+    "name": "Smartwatch Fit 5",
+    "brand": "PulseOne",
+    "category": "Wearables",
+    "googleAdsSpend": 318,
+    "netRevenue": 0,
+    "marginPercent": 28,
+    "addToCartRate": 5.1,
+    "conversionRate": 0.6,
+    "impressions": 9600,
+    "stock": 3,
+    "profit": -318,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:10:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-004",
+    "sku": "SKU-1199",
+    "name": "Laptop biznesowy 14",
+    "brand": "WorkBook",
+    "category": "Komputery",
+    "googleAdsSpend": 210,
+    "netRevenue": 1840,
+    "marginPercent": 22,
+    "addToCartRate": 3.8,
+    "conversionRate": 2.1,
+    "impressions": 4200,
+    "stock": 18,
+    "profit": 194.8,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:00:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-005",
+    "sku": "SKU-5502",
+    "name": "Kurtka softshell męska",
+    "brand": "NorthTrail",
+    "category": "Odzież",
+    "googleAdsSpend": 145,
+    "netRevenue": 620,
+    "marginPercent": 48,
+    "addToCartRate": 6.7,
+    "conversionRate": 0.9,
+    "impressions": 7100,
+    "stock": 112,
+    "profit": 152.6,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T15:55:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-006",
+    "sku": "SKU-6601",
+    "name": "Buty trekkingowe Alpine",
+    "brand": "NorthTrail",
+    "category": "Obuwie",
+    "googleAdsSpend": 520,
+    "netRevenue": 0,
+    "marginPercent": 35,
+    "addToCartRate": 2.1,
+    "conversionRate": 0.2,
+    "impressions": 15800,
+    "stock": 46,
+    "profit": -520,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:05:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-007",
+    "sku": "SKU-9022",
+    "name": "Ekspres ciśnieniowy Barista",
+    "brand": "HomeBrew",
+    "category": "AGD",
+    "googleAdsSpend": 88,
+    "netRevenue": 1290,
+    "marginPercent": 38,
+    "addToCartRate": 4.2,
+    "conversionRate": 2.8,
+    "impressions": 2800,
+    "stock": 27,
+    "profit": 402.2,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T15:50:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-008",
+    "sku": "SKU-4410",
+    "name": "Powerbank 20000 mAh",
+    "brand": "ChargeMax",
+    "category": "Akcesoria",
+    "googleAdsSpend": 760,
+    "netRevenue": 0,
+    "marginPercent": 18,
+    "addToCartRate": 1.8,
+    "conversionRate": 0.0,
+    "impressions": 22100,
+    "stock": 210,
+    "profit": -760,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:08:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-009",
+    "sku": "SKU-2288",
+    "name": "Sukienka letnia Luna",
+    "brand": "ModaNova",
+    "category": "Odzież",
+    "googleAdsSpend": 132,
+    "netRevenue": 410,
+    "marginPercent": 52,
+    "addToCartRate": 9.1,
+    "conversionRate": 0.7,
+    "impressions": 8900,
+    "stock": 64,
+    "profit": 81.2,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T15:42:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-010",
+    "sku": "SKU-7733",
+    "name": "Monitor 27 4K",
+    "brand": "PixelView",
+    "category": "Elektronika",
+    "googleAdsSpend": 95,
+    "netRevenue": 980,
+    "marginPercent": 31,
+    "addToCartRate": 2.9,
+    "conversionRate": 1.9,
+    "impressions": 3100,
+    "stock": 22,
+    "profit": 208.8,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:01:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-011",
+    "sku": "SKU-9901",
+    "name": "Protein WPC 900g",
+    "brand": "FitFuel",
+    "category": "Suplementy",
+    "googleAdsSpend": 402,
+    "netRevenue": 0,
+    "marginPercent": 44,
+    "addToCartRate": 7.2,
+    "conversionRate": 0.5,
+    "impressions": 10200,
+    "stock": 95,
+    "profit": -402,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T15:58:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-012",
+    "sku": "SKU-1205",
+    "name": "Rower miejski City 7",
+    "brand": "VeloRide",
+    "category": "Sport",
+    "googleAdsSpend": 68,
+    "netRevenue": 2150,
+    "marginPercent": 27,
+    "addToCartRate": 1.6,
+    "conversionRate": 2.4,
+    "impressions": 1900,
+    "stock": 11,
+    "profit": 512.5,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:03:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-013",
+    "sku": "SKU-3344",
+    "name": "Krem nawilżający 50ml",
+    "brand": "SkinLab",
+    "category": "Kosmetyki",
+    "googleAdsSpend": 74,
+    "netRevenue": 540,
+    "marginPercent": 58,
+    "addToCartRate": 5.5,
+    "conversionRate": 2.2,
+    "impressions": 2600,
+    "stock": 140,
+    "profit": 239.2,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T15:46:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-014",
+    "sku": "SKU-5566",
+    "name": "Gamingowa mysz RGB",
+    "brand": "GameCore",
+    "category": "Gaming",
+    "googleAdsSpend": 612,
+    "netRevenue": 0,
+    "marginPercent": 21,
+    "addToCartRate": 2.4,
+    "conversionRate": 0.3,
+    "impressions": 16700,
+    "stock": 88,
+    "profit": -612,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:07:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-015",
+    "sku": "SKU-7788",
+    "name": "Zestaw garnków 10 el.",
+    "brand": "KitchenPro",
+    "category": "Dom",
+    "googleAdsSpend": 58,
+    "netRevenue": 720,
+    "marginPercent": 33,
+    "addToCartRate": 3.1,
+    "conversionRate": 1.7,
+    "impressions": 2400,
+    "stock": 36,
+    "profit": 179.6,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T15:52:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-016",
+    "sku": "SKU-8899",
+    "name": "Odkurzacz bezworkowy Air",
+    "brand": "CleanHome",
+    "category": "AGD",
+    "googleAdsSpend": 198,
+    "netRevenue": 0,
+    "marginPercent": 29,
+    "addToCartRate": 4.8,
+    "conversionRate": 0.8,
+    "impressions": 6800,
+    "stock": 52,
+    "profit": -198,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:04:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-017",
+    "sku": "SKU-1010",
+    "name": "Bluza premium cotton",
+    "brand": "ModaNova",
+    "category": "Odzież",
+    "googleAdsSpend": 44,
+    "netRevenue": 380,
+    "marginPercent": 46,
+    "addToCartRate": 4.4,
+    "conversionRate": 2.0,
+    "impressions": 2100,
+    "stock": 78,
+    "profit": 130.8,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T15:44:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-018",
+    "sku": "SKU-2020",
+    "name": "Tablet 11 Wi-Fi",
+    "brand": "PixelView",
+    "category": "Elektronika",
+    "googleAdsSpend": 286,
+    "netRevenue": 0,
+    "marginPercent": 24,
+    "addToCartRate": 3.3,
+    "conversionRate": 0.5,
+    "impressions": 9100,
+    "stock": 19,
+    "profit": -286,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:06:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-019",
+    "sku": "SKU-8819",
+    "name": "Słuchawki Plus 2",
+    "brand": "WireBase",
+    "category": "Akcesoria",
+    "googleAdsSpend": 541,
+    "netRevenue": 0,
+    "marginPercent": 14,
+    "addToCartRate": 1.5,
+    "conversionRate": 2.0,
+    "impressions": 4452,
+    "stock": 558,
+    "profit": -541,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-020",
+    "sku": "SKU-8820",
+    "name": "Kamera Eco 3",
+    "brand": "WireBase",
+    "category": "Akcesoria",
+    "googleAdsSpend": 1074,
+    "netRevenue": 3586,
+    "marginPercent": 30,
+    "addToCartRate": 5.3,
+    "conversionRate": 2.1,
+    "impressions": 20731,
+    "stock": 558,
+    "profit": 1.8,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-021",
+    "sku": "SKU-8821",
+    "name": "Głośnik 360 4",
+    "brand": "TechNova",
+    "category": "Elektronika",
+    "googleAdsSpend": 736,
+    "netRevenue": 0,
+    "marginPercent": 21,
+    "addToCartRate": 1.7,
+    "conversionRate": 1.8,
+    "impressions": 26026,
+    "stock": 344,
+    "profit": -736,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-022",
+    "sku": "SKU-8822",
+    "name": "Rower stacjonarny Plus 5",
+    "brand": "GlowLab",
+    "category": "Beauty",
+    "googleAdsSpend": 128,
+    "netRevenue": 427,
+    "marginPercent": 25,
+    "addToCartRate": 1.4,
+    "conversionRate": 1.4,
+    "impressions": 26200,
+    "stock": 387,
+    "profit": -21.25,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-023",
+    "sku": "SKU-8823",
+    "name": "Ładowarka Pro 6",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 506,
+    "netRevenue": 770,
+    "marginPercent": 32,
+    "addToCartRate": 4.9,
+    "conversionRate": 2.1,
+    "impressions": 26409,
+    "stock": 103,
+    "profit": -259.6,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-024",
+    "sku": "SKU-8824",
+    "name": "Lampa X 7",
+    "brand": "PulseOne",
+    "category": "Wearables",
+    "googleAdsSpend": 469,
+    "netRevenue": 708,
+    "marginPercent": 28,
+    "addToCartRate": 8.9,
+    "conversionRate": 0.8,
+    "impressions": 27367,
+    "stock": 546,
+    "profit": -270.76,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-025",
+    "sku": "SKU-8825",
+    "name": "Mata Eco 8",
+    "brand": "ActiveLine",
+    "category": "Sport",
+    "googleAdsSpend": 704,
+    "netRevenue": 2433,
+    "marginPercent": 21,
+    "addToCartRate": 10.0,
+    "conversionRate": 3.6,
+    "impressions": 28790,
+    "stock": 234,
+    "profit": -193.07,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-026",
+    "sku": "SKU-8826",
+    "name": "Ładowarka Eco 9",
+    "brand": "ActiveLine",
+    "category": "Sport",
+    "googleAdsSpend": 684,
+    "netRevenue": 0,
+    "marginPercent": 39,
+    "addToCartRate": 10.7,
+    "conversionRate": 2.9,
+    "impressions": 11863,
+    "stock": 405,
+    "profit": -684,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-027",
+    "sku": "SKU-8827",
+    "name": "Powerbank Eco 10",
+    "brand": "ActiveLine",
+    "category": "Sport",
+    "googleAdsSpend": 1189,
+    "netRevenue": 1239,
+    "marginPercent": 28,
+    "addToCartRate": 10.8,
+    "conversionRate": 1.9,
+    "impressions": 16873,
+    "stock": 438,
+    "profit": -842.08,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-028",
+    "sku": "SKU-8828",
+    "name": "Serum Air 11",
+    "brand": "PulseOne",
+    "category": "Wearables",
+    "googleAdsSpend": 226,
+    "netRevenue": 383,
+    "marginPercent": 27,
+    "addToCartRate": 9.6,
+    "conversionRate": 2.0,
+    "impressions": 6663,
+    "stock": 163,
+    "profit": -122.59,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-029",
+    "sku": "SKU-8829",
+    "name": "Torba Air 12",
+    "brand": "DeskPro",
+    "category": "Biuro",
+    "googleAdsSpend": 1123,
+    "netRevenue": 0,
+    "marginPercent": 43,
+    "addToCartRate": 8.3,
+    "conversionRate": 0.6,
+    "impressions": 37690,
+    "stock": 11,
+    "profit": -1123,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-030",
+    "sku": "SKU-8830",
+    "name": "Router Lite 13",
+    "brand": "ActiveLine",
+    "category": "Sport",
+    "googleAdsSpend": 641,
+    "netRevenue": 488,
+    "marginPercent": 10,
+    "addToCartRate": 11.7,
+    "conversionRate": 3.5,
+    "impressions": 35771,
+    "stock": 269,
+    "profit": -592.2,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-031",
+    "sku": "SKU-8831",
+    "name": "Mysz Eco 14",
+    "brand": "WireBase",
+    "category": "Akcesoria",
+    "googleAdsSpend": 353,
+    "netRevenue": 182,
+    "marginPercent": 27,
+    "addToCartRate": 11.1,
+    "conversionRate": 2.7,
+    "impressions": 34521,
+    "stock": 543,
+    "profit": -303.86,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-032",
+    "sku": "SKU-8832",
+    "name": "Etui X 15",
+    "brand": "TechNova",
+    "category": "Elektronika",
+    "googleAdsSpend": 669,
+    "netRevenue": 0,
+    "marginPercent": 23,
+    "addToCartRate": 11.4,
+    "conversionRate": 0.5,
+    "impressions": 34349,
+    "stock": 580,
+    "profit": -669,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-033",
+    "sku": "SKU-8833",
+    "name": "Mata Max 16",
+    "brand": "WireBase",
+    "category": "Akcesoria",
+    "googleAdsSpend": 302,
+    "netRevenue": 924,
+    "marginPercent": 28,
+    "addToCartRate": 6.6,
+    "conversionRate": 2.8,
+    "impressions": 16380,
+    "stock": 271,
+    "profit": -43.28,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-034",
+    "sku": "SKU-8834",
+    "name": "Mysz 360 0",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 804,
+    "netRevenue": 850,
+    "marginPercent": 24,
+    "addToCartRate": 3.4,
+    "conversionRate": 0.4,
+    "impressions": 3878,
+    "stock": 123,
+    "profit": -600,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-035",
+    "sku": "SKU-8835",
+    "name": "Hantle Eco 1",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 54,
+    "netRevenue": 0,
+    "marginPercent": 11,
+    "addToCartRate": 1.3,
+    "conversionRate": 0.2,
+    "impressions": 24154,
+    "stock": 234,
+    "profit": -54,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-036",
+    "sku": "SKU-8836",
+    "name": "Serum Eco 2",
+    "brand": "WireBase",
+    "category": "Akcesoria",
+    "googleAdsSpend": 610,
+    "netRevenue": 1170,
+    "marginPercent": 52,
+    "addToCartRate": 8.8,
+    "conversionRate": 4.0,
+    "impressions": 40262,
+    "stock": 135,
+    "profit": -1.6,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-037",
+    "sku": "SKU-8837",
+    "name": "Monitor Air 3",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 873,
+    "netRevenue": 0,
+    "marginPercent": 14,
+    "addToCartRate": 4.6,
+    "conversionRate": 1.9,
+    "impressions": 6050,
+    "stock": 441,
+    "profit": -873,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-038",
+    "sku": "SKU-8838",
+    "name": "Kabel 360 4",
+    "brand": "WireBase",
+    "category": "Akcesoria",
+    "googleAdsSpend": 734,
+    "netRevenue": 1103,
+    "marginPercent": 33,
+    "addToCartRate": 2.7,
+    "conversionRate": 2.1,
+    "impressions": 30148,
+    "stock": 196,
+    "profit": -370.01,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-039",
+    "sku": "SKU-8839",
+    "name": "Klawiatura Air 5",
+    "brand": "PulseOne",
+    "category": "Wearables",
+    "googleAdsSpend": 551,
+    "netRevenue": 815,
+    "marginPercent": 46,
+    "addToCartRate": 1.6,
+    "conversionRate": 3.0,
+    "impressions": 37927,
+    "stock": 563,
+    "profit": -176.1,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-040",
+    "sku": "SKU-8840",
+    "name": "Ładowarka Eco 6",
+    "brand": "TechNova",
+    "category": "Elektronika",
+    "googleAdsSpend": 380,
+    "netRevenue": 398,
+    "marginPercent": 16,
+    "addToCartRate": 10.9,
+    "conversionRate": 0.8,
+    "impressions": 2641,
+    "stock": 410,
+    "profit": -316.32,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-041",
+    "sku": "SKU-8841",
+    "name": "Klawiatura Air 7",
+    "brand": "DeskPro",
+    "category": "Biuro",
+    "googleAdsSpend": 624,
+    "netRevenue": 623,
+    "marginPercent": 35,
+    "addToCartRate": 8.1,
+    "conversionRate": 2.2,
+    "impressions": 14945,
+    "stock": 569,
+    "profit": -405.95,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-042",
+    "sku": "SKU-8842",
+    "name": "Kamera Pro 8",
+    "brand": "ActiveLine",
+    "category": "Sport",
+    "googleAdsSpend": 1150,
+    "netRevenue": 0,
+    "marginPercent": 28,
+    "addToCartRate": 1.1,
+    "conversionRate": 2.2,
+    "impressions": 37307,
+    "stock": 58,
+    "profit": -1150,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-043",
+    "sku": "SKU-8843",
+    "name": "Kabel Lite 9",
+    "brand": "PulseOne",
+    "category": "Wearables",
+    "googleAdsSpend": 420,
+    "netRevenue": 0,
+    "marginPercent": 12,
+    "addToCartRate": 5.1,
+    "conversionRate": 4.2,
+    "impressions": 39834,
+    "stock": 240,
+    "profit": -420,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-044",
+    "sku": "SKU-8844",
+    "name": "Hantle Pro 10",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 207,
+    "netRevenue": 226,
+    "marginPercent": 26,
+    "addToCartRate": 11.2,
+    "conversionRate": 1.0,
+    "impressions": 23090,
+    "stock": 323,
+    "profit": -148.24,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-045",
+    "sku": "SKU-8845",
+    "name": "Klawiatura 360 11",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 308,
+    "netRevenue": 676,
+    "marginPercent": 47,
+    "addToCartRate": 11.2,
+    "conversionRate": 4.2,
+    "impressions": 3110,
+    "stock": 323,
+    "profit": 9.72,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-046",
+    "sku": "SKU-8846",
+    "name": "Rower stacjonarny Lite 12",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 190,
+    "netRevenue": 205,
+    "marginPercent": 18,
+    "addToCartRate": 11.2,
+    "conversionRate": 4.0,
+    "impressions": 18509,
+    "stock": 135,
+    "profit": -153.1,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-047",
+    "sku": "SKU-8847",
+    "name": "Mysz Max 13",
+    "brand": "GlowLab",
+    "category": "Beauty",
+    "googleAdsSpend": 937,
+    "netRevenue": 2363,
+    "marginPercent": 51,
+    "addToCartRate": 8.2,
+    "conversionRate": 2.5,
+    "impressions": 9288,
+    "stock": 8,
+    "profit": 268.13,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-048",
+    "sku": "SKU-8848",
+    "name": "Klawiatura Lite 14",
+    "brand": "PulseOne",
+    "category": "Wearables",
+    "googleAdsSpend": 259,
+    "netRevenue": 469,
+    "marginPercent": 35,
+    "addToCartRate": 7.5,
+    "conversionRate": 3.3,
+    "impressions": 15842,
+    "stock": 288,
+    "profit": -94.85,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-049",
+    "sku": "SKU-8849",
+    "name": "Serum Air 15",
+    "brand": "ActiveLine",
+    "category": "Sport",
+    "googleAdsSpend": 554,
+    "netRevenue": 768,
+    "marginPercent": 23,
+    "addToCartRate": 10.0,
+    "conversionRate": 0.3,
+    "impressions": 24359,
+    "stock": 433,
+    "profit": -377.36,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-050",
+    "sku": "SKU-8850",
+    "name": "Klawiatura Max 16",
+    "brand": "PulseOne",
+    "category": "Wearables",
+    "googleAdsSpend": 944,
+    "netRevenue": 2883,
+    "marginPercent": 53,
+    "addToCartRate": 1.8,
+    "conversionRate": 4.3,
+    "impressions": 12268,
+    "stock": 9,
+    "profit": 583.99,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-051",
+    "sku": "SKU-8851",
+    "name": "Lampa Max 0",
+    "brand": "TechNova",
+    "category": "Elektronika",
+    "googleAdsSpend": 920,
+    "netRevenue": 0,
+    "marginPercent": 27,
+    "addToCartRate": 10.8,
+    "conversionRate": 3.6,
+    "impressions": 5114,
+    "stock": 373,
+    "profit": -920,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-052",
+    "sku": "SKU-8852",
+    "name": "Kamera Eco 1",
+    "brand": "GlowLab",
+    "category": "Beauty",
+    "googleAdsSpend": 250,
+    "netRevenue": 243,
+    "marginPercent": 23,
+    "addToCartRate": 11.1,
+    "conversionRate": 1.1,
+    "impressions": 13149,
+    "stock": 158,
+    "profit": -194.11,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-053",
+    "sku": "SKU-8853",
+    "name": "Butelka Pro 2",
+    "brand": "PulseOne",
+    "category": "Wearables",
+    "googleAdsSpend": 407,
+    "netRevenue": 828,
+    "marginPercent": 44,
+    "addToCartRate": 3.6,
+    "conversionRate": 3.6,
+    "impressions": 9584,
+    "stock": 254,
+    "profit": -42.68,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-054",
+    "sku": "SKU-8854",
+    "name": "Kabel Air 3",
+    "brand": "DeskPro",
+    "category": "Biuro",
+    "googleAdsSpend": 495,
+    "netRevenue": 0,
+    "marginPercent": 37,
+    "addToCartRate": 4.0,
+    "conversionRate": 3.6,
+    "impressions": 17415,
+    "stock": 358,
+    "profit": -495,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-055",
+    "sku": "SKU-8855",
+    "name": "Słuchawki Eco 4",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 856,
+    "netRevenue": 413,
+    "marginPercent": 34,
+    "addToCartRate": 4.5,
+    "conversionRate": 2.3,
+    "impressions": 37641,
+    "stock": 285,
+    "profit": -715.58,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-056",
+    "sku": "SKU-8856",
+    "name": "Słuchawki Lite 5",
+    "brand": "GlowLab",
+    "category": "Beauty",
+    "googleAdsSpend": 574,
+    "netRevenue": 0,
+    "marginPercent": 24,
+    "addToCartRate": 1.7,
+    "conversionRate": 2.0,
+    "impressions": 23057,
+    "stock": 39,
+    "profit": -574,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-057",
+    "sku": "SKU-8857",
+    "name": "Rower stacjonarny Lite 6",
+    "brand": "DeskPro",
+    "category": "Biuro",
+    "googleAdsSpend": 828,
+    "netRevenue": 1382,
+    "marginPercent": 34,
+    "addToCartRate": 8.7,
+    "conversionRate": 0.1,
+    "impressions": 37787,
+    "stock": 45,
+    "profit": -358.12,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-058",
+    "sku": "SKU-8858",
+    "name": "Lampa 360 7",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 183,
+    "netRevenue": 388,
+    "marginPercent": 38,
+    "addToCartRate": 8.8,
+    "conversionRate": 1.4,
+    "impressions": 22769,
+    "stock": 127,
+    "profit": -35.56,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-059",
+    "sku": "SKU-8859",
+    "name": "Router 360 8",
+    "brand": "DeskPro",
+    "category": "Biuro",
+    "googleAdsSpend": 645,
+    "netRevenue": 1166,
+    "marginPercent": 44,
+    "addToCartRate": 8.3,
+    "conversionRate": 4.1,
+    "impressions": 39796,
+    "stock": 388,
+    "profit": -131.96,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-060",
+    "sku": "SKU-8860",
+    "name": "Torba Pro 9",
+    "brand": "ActiveLine",
+    "category": "Sport",
+    "googleAdsSpend": 662,
+    "netRevenue": 484,
+    "marginPercent": 35,
+    "addToCartRate": 7.5,
+    "conversionRate": 1.5,
+    "impressions": 31452,
+    "stock": 593,
+    "profit": -492.6,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-061",
+    "sku": "SKU-8861",
+    "name": "Kamera Air 10",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 387,
+    "netRevenue": 754,
+    "marginPercent": 50,
+    "addToCartRate": 1.6,
+    "conversionRate": 4.3,
+    "impressions": 17892,
+    "stock": 343,
+    "profit": -10,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-062",
+    "sku": "SKU-8862",
+    "name": "Monitor Eco 11",
+    "brand": "ActiveLine",
+    "category": "Sport",
+    "googleAdsSpend": 341,
+    "netRevenue": 0,
+    "marginPercent": 23,
+    "addToCartRate": 7.5,
+    "conversionRate": 3.5,
+    "impressions": 32346,
+    "stock": 486,
+    "profit": -341,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-063",
+    "sku": "SKU-8863",
+    "name": "Hantle Eco 12",
+    "brand": "DeskPro",
+    "category": "Biuro",
+    "googleAdsSpend": 826,
+    "netRevenue": 579,
+    "marginPercent": 14,
+    "addToCartRate": 10.4,
+    "conversionRate": 4.0,
+    "impressions": 30362,
+    "stock": 104,
+    "profit": -744.94,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-064",
+    "sku": "SKU-8864",
+    "name": "Głośnik Air 13",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 142,
+    "netRevenue": 232,
+    "marginPercent": 47,
+    "addToCartRate": 9.7,
+    "conversionRate": 3.0,
+    "impressions": 39129,
+    "stock": 136,
+    "profit": -32.96,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-065",
+    "sku": "SKU-8865",
+    "name": "Rękawice 360 14",
+    "brand": "GlowLab",
+    "category": "Beauty",
+    "googleAdsSpend": 1162,
+    "netRevenue": 626,
+    "marginPercent": 33,
+    "addToCartRate": 5.7,
+    "conversionRate": 3.4,
+    "impressions": 20673,
+    "stock": 486,
+    "profit": -955.42,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-066",
+    "sku": "SKU-8866",
+    "name": "Monitor Plus 15",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 940,
+    "netRevenue": 0,
+    "marginPercent": 26,
+    "addToCartRate": 3.6,
+    "conversionRate": 1.5,
+    "impressions": 37899,
+    "stock": 240,
+    "profit": -940,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-067",
+    "sku": "SKU-8867",
+    "name": "Powerbank Max 16",
+    "brand": "WireBase",
+    "category": "Akcesoria",
+    "googleAdsSpend": 513,
+    "netRevenue": 283,
+    "marginPercent": 32,
+    "addToCartRate": 1.2,
+    "conversionRate": 1.9,
+    "impressions": 38060,
+    "stock": 219,
+    "profit": -422.44,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-068",
+    "sku": "SKU-8868",
+    "name": "Butelka Pro 0",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 463,
+    "netRevenue": 1352,
+    "marginPercent": 55,
+    "addToCartRate": 10.4,
+    "conversionRate": 3.5,
+    "impressions": 27428,
+    "stock": 20,
+    "profit": 280.6,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-069",
+    "sku": "SKU-8869",
+    "name": "Słuchawki X 1",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 651,
+    "netRevenue": 1639,
+    "marginPercent": 52,
+    "addToCartRate": 9.7,
+    "conversionRate": 4.1,
+    "impressions": 34496,
+    "stock": 559,
+    "profit": 201.28,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-070",
+    "sku": "SKU-8870",
+    "name": "Klawiatura 360 2",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 1034,
+    "netRevenue": 0,
+    "marginPercent": 29,
+    "addToCartRate": 8.8,
+    "conversionRate": 3.8,
+    "impressions": 10864,
+    "stock": 414,
+    "profit": -1034,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-071",
+    "sku": "SKU-8871",
+    "name": "Torba Pro 3",
+    "brand": "TechNova",
+    "category": "Elektronika",
+    "googleAdsSpend": 211,
+    "netRevenue": 322,
+    "marginPercent": 47,
+    "addToCartRate": 1.1,
+    "conversionRate": 1.8,
+    "impressions": 16371,
+    "stock": 186,
+    "profit": -59.66,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-072",
+    "sku": "SKU-8872",
+    "name": "Router X 4",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 816,
+    "netRevenue": 0,
+    "marginPercent": 34,
+    "addToCartRate": 10.1,
+    "conversionRate": 2.2,
+    "impressions": 37851,
+    "stock": 258,
+    "profit": -816,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-073",
+    "sku": "SKU-8873",
+    "name": "Lampa Eco 5",
+    "brand": "TechNova",
+    "category": "Elektronika",
+    "googleAdsSpend": 180,
+    "netRevenue": 549,
+    "marginPercent": 20,
+    "addToCartRate": 11.4,
+    "conversionRate": 1.0,
+    "impressions": 3835,
+    "stock": 31,
+    "profit": -70.2,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-074",
+    "sku": "SKU-8874",
+    "name": "Monitor Max 6",
+    "brand": "PulseOne",
+    "category": "Wearables",
+    "googleAdsSpend": 1009,
+    "netRevenue": 3520,
+    "marginPercent": 31,
+    "addToCartRate": 8.5,
+    "conversionRate": 3.5,
+    "impressions": 13496,
+    "stock": 476,
+    "profit": 82.2,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-075",
+    "sku": "SKU-8875",
+    "name": "Głośnik Plus 7",
+    "brand": "WireBase",
+    "category": "Akcesoria",
+    "googleAdsSpend": 261,
+    "netRevenue": 632,
+    "marginPercent": 54,
+    "addToCartRate": 5.1,
+    "conversionRate": 3.2,
+    "impressions": 7480,
+    "stock": 384,
+    "profit": 80.28,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-076",
+    "sku": "SKU-8876",
+    "name": "Etui Plus 8",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 287,
+    "netRevenue": 923,
+    "marginPercent": 20,
+    "addToCartRate": 6.6,
+    "conversionRate": 3.0,
+    "impressions": 7019,
+    "stock": 355,
+    "profit": -102.4,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-077",
+    "sku": "SKU-8877",
+    "name": "Słuchawki 360 9",
+    "brand": "GlowLab",
+    "category": "Beauty",
+    "googleAdsSpend": 1043,
+    "netRevenue": 0,
+    "marginPercent": 31,
+    "addToCartRate": 8.6,
+    "conversionRate": 2.0,
+    "impressions": 36693,
+    "stock": 470,
+    "profit": -1043,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-078",
+    "sku": "SKU-8878",
+    "name": "Rower stacjonarny Air 10",
+    "brand": "ActiveLine",
+    "category": "Sport",
+    "googleAdsSpend": 992,
+    "netRevenue": 1002,
+    "marginPercent": 18,
+    "addToCartRate": 10.3,
+    "conversionRate": 3.8,
+    "impressions": 8179,
+    "stock": 330,
+    "profit": -811.64,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-079",
+    "sku": "SKU-8879",
+    "name": "Rękawice Eco 11",
+    "brand": "ActiveLine",
+    "category": "Sport",
+    "googleAdsSpend": 991,
+    "netRevenue": 2741,
+    "marginPercent": 39,
+    "addToCartRate": 6.2,
+    "conversionRate": 1.5,
+    "impressions": 34452,
+    "stock": 29,
+    "profit": 77.99,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-080",
+    "sku": "SKU-8880",
+    "name": "Lampa Plus 12",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 737,
+    "netRevenue": 0,
+    "marginPercent": 25,
+    "addToCartRate": 0.6,
+    "conversionRate": 4.3,
+    "impressions": 8110,
+    "stock": 569,
+    "profit": -737,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-081",
+    "sku": "SKU-8881",
+    "name": "Butelka Air 13",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 1177,
+    "netRevenue": 3362,
+    "marginPercent": 49,
+    "addToCartRate": 9.6,
+    "conversionRate": 0.5,
+    "impressions": 17022,
+    "stock": 458,
+    "profit": 470.38,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-082",
+    "sku": "SKU-8882",
+    "name": "Monitor Plus 14",
+    "brand": "DeskPro",
+    "category": "Biuro",
+    "googleAdsSpend": 795,
+    "netRevenue": 861,
+    "marginPercent": 21,
+    "addToCartRate": 12.0,
+    "conversionRate": 2.5,
+    "impressions": 25556,
+    "stock": 435,
+    "profit": -614.19,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-083",
+    "sku": "SKU-8883",
+    "name": "Klawiatura Plus 15",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 554,
+    "netRevenue": 0,
+    "marginPercent": 20,
+    "addToCartRate": 1.9,
+    "conversionRate": 2.5,
+    "impressions": 14633,
+    "stock": 323,
+    "profit": -554,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-084",
+    "sku": "SKU-8884",
+    "name": "Kamera Air 16",
+    "brand": "HomeCraft",
+    "category": "Dom",
+    "googleAdsSpend": 606,
+    "netRevenue": 1801,
+    "marginPercent": 36,
+    "addToCartRate": 10.1,
+    "conversionRate": 1.4,
+    "impressions": 26150,
+    "stock": 102,
+    "profit": 42.36,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-085",
+    "sku": "SKU-8885",
+    "name": "Mysz Pro 0",
+    "brand": "PulseOne",
+    "category": "Wearables",
+    "googleAdsSpend": 1133,
+    "netRevenue": 0,
+    "marginPercent": 10,
+    "addToCartRate": 6.9,
+    "conversionRate": 3.2,
+    "impressions": 10775,
+    "stock": 55,
+    "profit": -1133,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-086",
+    "sku": "SKU-8886",
+    "name": "Etui Pro 1",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 622,
+    "netRevenue": 473,
+    "marginPercent": 20,
+    "addToCartRate": 11.6,
+    "conversionRate": 1.2,
+    "impressions": 33808,
+    "stock": 188,
+    "profit": -527.4,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-087",
+    "sku": "SKU-8887",
+    "name": "Ładowarka 360 2",
+    "brand": "WireBase",
+    "category": "Akcesoria",
+    "googleAdsSpend": 1047,
+    "netRevenue": 0,
+    "marginPercent": 11,
+    "addToCartRate": 2.2,
+    "conversionRate": 2.6,
+    "impressions": 22412,
+    "stock": 155,
+    "profit": -1047,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-088",
+    "sku": "SKU-8888",
+    "name": "Monitor Lite 3",
+    "brand": "WireBase",
+    "category": "Akcesoria",
+    "googleAdsSpend": 1182,
+    "netRevenue": 3901,
+    "marginPercent": 32,
+    "addToCartRate": 4.9,
+    "conversionRate": 4.1,
+    "impressions": 21987,
+    "stock": 535,
+    "profit": 66.32,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-089",
+    "sku": "SKU-8889",
+    "name": "Mysz Pro 4",
+    "brand": "DeskPro",
+    "category": "Biuro",
+    "googleAdsSpend": 243,
+    "netRevenue": 503,
+    "marginPercent": 31,
+    "addToCartRate": 8.1,
+    "conversionRate": 0.8,
+    "impressions": 13891,
+    "stock": 270,
+    "profit": -87.07,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-090",
+    "sku": "SKU-8890",
+    "name": "Głośnik Pro 5",
+    "brand": "WireBase",
+    "category": "Akcesoria",
+    "googleAdsSpend": 876,
+    "netRevenue": 958,
+    "marginPercent": 25,
+    "addToCartRate": 0.9,
+    "conversionRate": 1.4,
+    "impressions": 21028,
+    "stock": 298,
+    "profit": -636.5,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-091",
+    "sku": "SKU-8891",
+    "name": "Ładowarka Eco 6",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 581,
+    "netRevenue": 1977,
+    "marginPercent": 55,
+    "addToCartRate": 5.4,
+    "conversionRate": 2.5,
+    "impressions": 12264,
+    "stock": 202,
+    "profit": 506.35,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-092",
+    "sku": "SKU-8892",
+    "name": "Powerbank Lite 7",
+    "brand": "ActiveLine",
+    "category": "Sport",
+    "googleAdsSpend": 162,
+    "netRevenue": 0,
+    "marginPercent": 27,
+    "addToCartRate": 11.1,
+    "conversionRate": 2.0,
+    "impressions": 33216,
+    "stock": 582,
+    "profit": -162,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-093",
+    "sku": "SKU-8893",
+    "name": "Torba Plus 8",
+    "brand": "ActiveLine",
+    "category": "Sport",
+    "googleAdsSpend": 1064,
+    "netRevenue": 873,
+    "marginPercent": 12,
+    "addToCartRate": 10.7,
+    "conversionRate": 3.3,
+    "impressions": 18908,
+    "stock": 40,
+    "profit": -959.24,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-094",
+    "sku": "SKU-8894",
+    "name": "Ładowarka Eco 9",
+    "brand": "TechNova",
+    "category": "Elektronika",
+    "googleAdsSpend": 82,
+    "netRevenue": 270,
+    "marginPercent": 35,
+    "addToCartRate": 1.0,
+    "conversionRate": 3.4,
+    "impressions": 33334,
+    "stock": 590,
+    "profit": 12.5,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-095",
+    "sku": "SKU-8895",
+    "name": "Klawiatura Max 10",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 932,
+    "netRevenue": 3132,
+    "marginPercent": 23,
+    "addToCartRate": 4.5,
+    "conversionRate": 1.6,
+    "impressions": 9355,
+    "stock": 481,
+    "profit": -211.64,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-096",
+    "sku": "SKU-8896",
+    "name": "Router 360 11",
+    "brand": "PulseOne",
+    "category": "Wearables",
+    "googleAdsSpend": 1054,
+    "netRevenue": 831,
+    "marginPercent": 34,
+    "addToCartRate": 0.9,
+    "conversionRate": 0.5,
+    "impressions": 19041,
+    "stock": 563,
+    "profit": -771.46,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-097",
+    "sku": "SKU-8897",
+    "name": "Etui 360 12",
+    "brand": "GlowLab",
+    "category": "Beauty",
+    "googleAdsSpend": 1093,
+    "netRevenue": 1315,
+    "marginPercent": 52,
+    "addToCartRate": 5.3,
+    "conversionRate": 0.9,
+    "impressions": 26209,
+    "stock": 473,
+    "profit": -409.2,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-098",
+    "sku": "SKU-8898",
+    "name": "Rękawice Pro 13",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 456,
+    "netRevenue": 0,
+    "marginPercent": 16,
+    "addToCartRate": 5.5,
+    "conversionRate": 3.2,
+    "impressions": 10457,
+    "stock": 294,
+    "profit": -456,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-099",
+    "sku": "SKU-8899",
+    "name": "Rower stacjonarny Eco 14",
+    "brand": "TechNova",
+    "category": "Elektronika",
+    "googleAdsSpend": 364,
+    "netRevenue": 152,
+    "marginPercent": 27,
+    "addToCartRate": 1.6,
+    "conversionRate": 4.5,
+    "impressions": 9935,
+    "stock": 417,
+    "profit": -322.96,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  },
+  {
+    "id": "p-100",
+    "sku": "SKU-8900",
+    "name": "Etui Max 15",
+    "brand": "GreenPatch",
+    "category": "Ogród",
+    "googleAdsSpend": 1060,
+    "netRevenue": 2467,
+    "marginPercent": 50,
+    "addToCartRate": 5.3,
+    "conversionRate": 2.2,
+    "impressions": 33447,
+    "stock": 279,
+    "profit": 173.5,
+    "freshness": [
+      {
+        "source": "ga4",
+        "label": "GA4",
+        "updatedAt": "2026-07-15T02:10:00+02:00"
+      },
+      {
+        "source": "google_ads",
+        "label": "Google Ads",
+        "updatedAt": "2026-07-15T01:45:00+02:00"
+      },
+      {
+        "source": "inventory",
+        "label": "Magazyn",
+        "updatedAt": "2026-07-15T16:02:00+02:00"
+      }
+    ]
+  }
+]
