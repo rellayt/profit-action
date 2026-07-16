@@ -1,6 +1,7 @@
 import { expect, type Page } from '@playwright/test';
 
 import { STARTER_QUERY_CHIPS } from '../../src/features/copilot/lib/chat/copilotConstants';
+import { PA_STORAGE_KEYS } from '../../src/features/copilot/lib/storage/localStorageKeys';
 
 export const STARTER_NEGATIVE_PROFIT = STARTER_QUERY_CHIPS[0];
 export const STARTER_LOW_MARGIN = STARTER_QUERY_CHIPS[1];
@@ -8,10 +9,11 @@ export const STARTER_LOW_MARGIN = STARTER_QUERY_CHIPS[1];
 /**
  * Wipe client cache and in-memory backend conversations so Historia cannot
  * repopulate from GET /api/conversations after a bare localStorage.clear().
+ * Re-marks intro as seen so the welcome modal does not block clicks.
  */
 export async function resetClientState(page: Page) {
   await page.goto('/copilot');
-  await page.evaluate(async () => {
+  await page.evaluate(async (introSeenKey) => {
     try {
       const list = (await fetch('/api/conversations').then((response) => response.json())) as Array<{
         id: string;
@@ -24,9 +26,11 @@ export async function resetClientState(page: Page) {
     }
     localStorage.clear();
     sessionStorage.clear();
-  });
+    localStorage.setItem(introSeenKey, 'true');
+  }, PA_STORAGE_KEYS.introSeen);
   await page.reload();
   await expect(page.getByRole('heading', { name: 'Zapytaj o dane produktów' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Zaczynam' })).toHaveCount(0);
   await expect(page.getByText('Historia')).toHaveCount(0);
 }
 
