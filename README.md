@@ -42,6 +42,7 @@ No external advertising or analytics systems are connected. A production extensi
 | **Docs in this repo** | English |
 | **Catalog** | ~100 synthetic products (`p-001` … `p-100`) |
 | **Runtime** | No Docker — `npm run dev` |
+| **License** | [MIT](./LICENSE) |
 
 ---
 
